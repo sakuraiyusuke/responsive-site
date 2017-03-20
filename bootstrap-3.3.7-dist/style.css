@@ -1,20 +1,10 @@
-@charset 'UTF-8';
-
-/*.topimage {
-	height: 500px;
-}
-
-.topimage img {
-	height: 400px;
-}
-*/
-
-
 
 @charset 'UTF-8';
 @import url(https://fonts.googleapis.com/css?family=Abel);
 /* Base
 ------------------------------------------------------------*/
+
+
 html
 {
     font-size: 62.5%;
@@ -171,6 +161,7 @@ section h2
     /*width: 32%;*/
     padding: 20px;
     margin:10px;
+    /*max-height: 150px;*/
 
 
     -webkit-border-radius: 4px;
@@ -178,8 +169,8 @@ section h2
             border-radius: 4px;
     background-color: #fdfcf6;
 }
-
-/*@media (max-width: 768px) {
+/*
+@media (max-width: 768px) {
     .skill-box {
         -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -192,7 +183,13 @@ section h2
             border-radius: 4px;
     background-color: #fdfcf6;
     }
-}*/
+}
+*/
+
+
+
+
+
 
 
 
@@ -270,10 +267,28 @@ footer
 
 
 
+@media screen and (max-width:768px){
+  /*0px以上で適用する内容*/
+
+ img {
+    max-height: 250px;
+    width: 100%;  
+ }
+
+}
 
 
 
 
+@media screen and (max-width:500px){
+  /*0px以上で適用する内容*/
+
+ img {
+    max-height: 250px;
+    width: 100%;  
+ }
+
+}
 
 
 
