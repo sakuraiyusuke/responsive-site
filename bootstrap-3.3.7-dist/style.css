@@ -271,10 +271,9 @@ footer
   /*0px以上で適用する内容*/
 
  img {
-    max-height: 250px;
+    max-height: 500px;
     width: 100%;  
  }
-
 }
 
 
