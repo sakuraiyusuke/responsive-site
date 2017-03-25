@@ -5,6 +5,43 @@
 ------------------------------------------------------------*/
 
 
+
+@media (max-width: 768px) {
+
+    .topimage {
+        max-height: 250px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+.topimage {
+        background-image: url(./images/AMEtugarutetudou_TP_V.jpg);
+        height: 500px;
+        width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html
 {
     font-size: 62.5%;
